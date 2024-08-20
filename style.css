@@ -2,72 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 #weather {
-    padding-top: 5px;
-    height: auto;
-    width: 80vw;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
     margin: 20vh auto;
-    border-radius: 5%;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 #input {
-    height: auto;
-    margin: 2vh;
-    font-size: larger;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: left;
 }
 
 #city {
-    border-radius: 5px;
     width: 100%;
-    height: 2rem;
-    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 1rem;
 }
 
 #btn {
     width: 100%;
+    padding: 10px;
     border-radius: 5px;
-    margin: 5px 0 0 0;
-    height: 2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
-#heading {
-    text-align: center;
-    font-size: xx-large;
-    font-weight: 700;
-}
-
-/* Media Query for smaller screens */
-@media (max-width: 768px) {
-    #weather {
-        width: 90vw;
-        margin: 10vh auto;
-    }
-
-    #heading {
-        font-size: x-large;
-    }
-
-    #btn {
-        height: 2.5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    #heading {
-        font-size: large;
-    }
-
-    #input {
-        font-size: medium;
-    }
-
-    #btn {
-        height: 3rem;
-    }
+#btn:hover {
+    background-color: #0056b3;
 }
