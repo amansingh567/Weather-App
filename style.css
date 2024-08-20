@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    
+    
+}
+#weather{
+    padding-top:5px;
+    height:25vh;
+    width: 40vh;
+    /* border:1px black solid; */
+    margin: 25vh 10vh 50vh 90vh ;
+    border-radius: 5%;
+    box-shadow:3px 3px 3px 3px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#input{
+    height: 7vh;
+    margin: 2vh ;
+    font-size:larger;
+    
+}
+#city{
+    border-radius: 5px;
+    width:25vh;
+    height: 1.5rem;
+    margin: 15px;
+}
+#btn{
+    width:25.5vh;
+    border-radius: 5px;
+    margin: 5px 0 0 72px;
+    height: 1.6rem;
+
+}
+#heading{
+    text-align:center;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
